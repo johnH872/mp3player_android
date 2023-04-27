@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".service.MyApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TestMaterial"
+        tools:targetApi="31">
+        <activity
+            android:name=".adminActivity.AddNewSongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivity.AddNewSingerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivity.AddNewAlbumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivity.CheckListItemAlbumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivity.CheckListItemSingerActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".adminActivity.UpdateSongActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivity.UpdateSingerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivity.UpdateAlbumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".adminActivity.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlayMusicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DownloadedSongsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FavoriteSongsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SingerSongsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AlbumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <service android:name=".service.PlayMusicService" />
+
+        <receiver android:name=".service.myReceiver" />
+    </application>
+
+</manifest>

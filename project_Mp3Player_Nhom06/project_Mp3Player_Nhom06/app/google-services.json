@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977007439451",
+    "project_id": "mp3-player-android2",
+    "storage_bucket": "mp3-player-android2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977007439451:android:83dd395928fa6fff3a597e",
+        "android_client_info": {
+          "package_name": "hcmute.edu.project_Mp3Player_Nhom06"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977007439451-8cr3dae24lrs0nlmmk3j86tfhq5jgs6p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm0EkYNcjyB8bGthw04JcoWzxvQy2SlLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977007439451-8cr3dae24lrs0nlmmk3j86tfhq5jgs6p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

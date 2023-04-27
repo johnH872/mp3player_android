@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tab_home"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/tab_isPlayingMusic"
+        android:title="Home"
+        android:icon="@drawable/play_arrow_48px"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/tab_personal"
+        android:title="Personal"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_user" />
+</menu>
