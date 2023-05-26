@@ -1,11 +1,14 @@
 # mp3player_android
 ## Description
 Mobile app that helps user classify fishes in the market and determine fish's freshness through eyes. <br>
-Features: 
-* User account: login, register, logout, change password
-* User can capture image or use gallery image
-* Fish classification, fish eye cutting, and fish freshness
-* Save classified images
+Normal user features: 
+* User account: login, register, logout
+* User can listen to music
+* Save songs to favorites
+* Download mp3 file
+Admin features:
+* CRUD songs, albums, singers
+* Update songs associations with albums, singers
 ## Images
 <h3> User page </h3>
 <p float="center">
